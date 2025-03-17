@@ -10,4 +10,7 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    server: {
+        allowedHosts: ['1774589af215.ngrok.app'],
+    },
 });
